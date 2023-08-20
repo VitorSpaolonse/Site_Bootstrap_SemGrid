@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="img/Logo_bolo.png">
+    <title>Confeitaria Delícias Encantadas</title>
+</head>
+<body> 
+
+  
+<!--navbar-->
+<nav class="navbar col-12 position-fixed bg-dark navbar-expand-lg" data-bs-theme="dark" style="z-index: 999;">
+  <div class="container-fluid col-11" style="width: 100%;">
+          <a class="navbar-brand"  href="#">Delicias Encantadas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#produtos">Produtos</a>
+        <a class="nav-link" href="#conteudo">Sobre nós</a>
+        <a class="nav-link" href="#direitos">Direitos</a>
+      </div>
+    </div>
+  </div>
+</nav>
+      
+      
+<!-- carrousel-->
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrousel/cake01.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrousel/cake02_1.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrousel/cake03.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- cards-->
+      <h2 id="produtos" class="text-center" style="margin-top: 10vh; margin-bottom: 10vh;">Produtos</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+  <div class="col 1">
+    <div class="card h-100">
+      <img src="img/img_cards/chocolate_fofinho.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bolo de chocolate fofinho</h5>
+        <p class="card-text">Como fazer um bolo fofinho de chocolate que vai encantar todos!</p>
+        <!--Inicio codigo do modal-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Ver mais...
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Bolo de chocolate fofinho</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <img src="img/modal_img/bolo de chocolate02.jpg" class="card-img-top" alt="...">
+        <p class="card-text"> <h1>Ingredientes:</h1>
+          <br>1 xícara de margarina sem sal </br>
+          <br>1 colher rasa de fermento em pó</br>
+          <br>3 ovos</br>
+          <br>1 xicara de achocolatado em pó</br>
+          <br>2 xicaras de farinha de trigo</br>
+          <br>1 xicaras de leite morno</br>
+          <br>2 xicaras de açúcar</br>
+          <br><h4><b>Cobertura:</b></h4></br>
+          <br>¾ de xicara de achocolatado em pó</br>
+          <br>2 xicaras de leite</br>
+          <br>¾ de xicara de açúcar</br>
+          <br>2 colheres de sopa de margarina sem sal</br>
+          <br>Gotas de baunilha ou 1 cálice de licor de cacau (opcional)</br>
+          
+          <br><h4><b>Modo de preparo:</b></h4></br>
+          <p>Em uma batedeira, coloque os ovos inteiros, o açúcar e a margarina sem sal, bata por 5 minutos.</p>
+          <p>Em seguida, desligue a batedeira e acrescente o achocolatado, a farinha de trigo, o leite e misture com uma colher.
+          Agora volte para a batedeira e bata por 2 à 3 minutos, até ficar bem homogêneo.</p>
+          <p>Adicione o fermento e misture fora da batedeira.</p>
+          <p>Em seguida despeje a massa em uma assadeira retangular untada e polvilhada e leve para assar em forno médio pré-aquecido por mais ou menos 40 minutos a 180°C. 
+          Depois de frio, despeje a cobertura por cima.</p>
+          <br><h4><b>Calda:</b></h4></br>
+          <p>Para fazer a Calda, adicione os ingredientes da cobertura em uma panela, mexa bem e em seguida leve para cozinhar em fogo médio;</p>
+          <p>Permaneça mexendo sem parar até que esta calda engrosse e comece a soltar do fundo da panela, como se fosse um brigadeiro mole</p>
+          <p>Esta calda fica cremosa e demora mais ou menos uns 10 minutos para ficar pronta, é rápida, mas a consistência é ótima, espalha muito bem e não escorre.</p>
+          <p>Para finalizar, quando estiver no ponto de brigadeiro mole, estará pronta, espere amornar e coloque por cima do bolo frio.</p>
+          
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+        <button type="button" class="btn btn-primary">Asmei :-)</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col 2">
+    <div class="card h-100">
+      <img src="img/img_cards/fuba_e_goiabada.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bolo de fubá com goiabada</h5>
+        <p class="card-text">Um simples e delicioso casamento de sabores </p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal02">
+  Ver mais...
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Bolo de fubá com goiabada</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <img src="img/modal_img/fubá.jpg" class="card-img-top" alt="...">
+        <p class="card-text"><h1>Ingredientes</h1>
+          <br>3 ovos</br>
+          <br>1 xícara (chá) de farinha de trigo</br>
+          <br>1½ xícaras (chá) de fubá</br>
+          <br>1½ xicaras (chá) de açúcar</br>
+          <br>1 xícara (chá) de leite</br>
+          <br>⅔ xícara (chá) de óleo de soja</br>
+          <br>1 colher (sopa) de Fermento em Pó Químico </br>
+          <br>½ colher (chá) de erva-doce</br>
+          <br>1 xícara (chá) de goiabada</br>
+          <br>Goiabada Cremosa a gosto</br>
+          <br><h4><b>Modo de preparo:</b></h4></br>
+           
+          <p>No liquidificador bater os ovos, leite, óleo e açúcar;</p>
+          <p>Colocar a mistura em um recipiente e misturar com a farinha de trigo, fubá, fermento e erva doce, até que fique uma mistura bem homogênea;</p>
+          <p>Em uma forma redonda com furo no meio, untada com manteiga e fubá, colocar um pouco da massa de bolo, um pouco de goiabada em cubinhos, depois mais massa, mais goiabada, e ir repetindo o processo até os ingredientes acabarem;</p>
+          <p>Levar ao forno a 200ºC por 35-40 minutos</p>
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+        <button type="button" class="btn btn-primary">Asmei :-)</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="img/img_cards/laranja com calda.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bolo de laranja com calda</h5>
+        <p class="card-text">O queridinho e clássico bolo de laranja, porém com uma calda deliciosa por cima</p>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal03">
+  Ver mais...
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Bolo de laranja com calda</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <img src="img/modal_img/laranja.jpg" class="card-img-top" alt="...">
+        <p class="card-text"><h1>Ingredientes</h1>
+        <br>3 ovos</br>
+          <br>1 xicara de suco de laranja</br>
+          <br>1 xícara (chá) de óleo</br>
+          <br>2 xícaras (chá) de açúcar</br>
+          <br>2 xícaras (chá) de farinha de trigo</br>
+          <br>1 colher (sopa) de fermento em pó</br>
+
+          <br><h4><b>Cobertura (casquinha):</b></h4></br>
+
+          <br>3 xícaras de açúcar impalpável (ou de confeiteiro) não use açúcar comum</br>
+          <br>8 colheres (de sopa) de suco de laranja (ou limão) não misture água</br>
+          <br><h4><b>Modo preparo:</b></h4></br>
+          <p>Para o bolo: Bata no liquidificador ou na batedeira os ovos, o suco da laranja, o óleo, e o açúcar. </p>
+          <p>Depois despeje em uma tigela e junte com a farinha e o fermento até a massa ficar homogênea. </p>
+          <p>Depois colocar em uma assadeira com furo untada com manteiga e farinha e levar para o forno. </p>
+          <p>Asse em forno, pré aquecido, à 180ºC, por cerca de 40 minutos, ou até dourar. Desenforme e deixe esfriar. </p>
+          <br><h4><b>Para a cobertura:</b></h4></br>
+          <p> Em uma panela ou travessa de vidro (que aguente calor) coloque o açúcar e o suco e leve ao banho-maria (coloque uma panela com água no fogo, deixe ferver e por cima dessa panela com água fervendo encaixe a outra panela ou uma travessa de vidro com os ingredientes), fique mexendo até derreter e ficar uma calda lisinha e líquida </p>
+          <p>Despeje sobre o bolo e espere esfriar.
+          
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+        <button type="button" class="btn btn-primary">Asmei :-)</button>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- conteudo-->
+
+
+<div id="conteudo" class="col-11 m-auto">
+  <h2 class="text-center" style="margin-top: 25vh; margin-bottom: 15vh;">Sobre nós</h2>
+  <p class="text-center">
+    Bem-vindo ao "Confeitaria Delícias Encantadas", o seu destino online
+     para tudo relacionado a bolos e confeitaria! Se você é um amante de sobremesas em busca de
+   inspiração ou um confeiteiro 
+    aspirante que deseja aprimorar suas habilidades, você encontrou o lugar certo.
+  </p>
+</div>
+<hr class="col-11 m-auto"/>
+<br><br>
+
+
+<!--rodapé-->
+<footer id="footer" class="page-footer p-5 col-11 m-auto" style="background-color: black; width: 100%;">
+<div class="text-center" style="text-decoration: none; ">
+  <a href="#">@2023 Copyright: Confeitaria Delicias Encantadas </a>
+</div>
+</footer>
+
+</body>
+</html>
